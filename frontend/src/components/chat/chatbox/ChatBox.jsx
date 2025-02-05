@@ -4,7 +4,7 @@ import ChatHeader from './ChatHeader'
 import ChatArea from './ChatArea'
 import ChatFooter from './ChatFooter'
 
-export default function ChatBox({ roomData, handleSendMsg, allMsgs, user, handleDelete, setReplyMsg, replyMsg, setReplyMsg }) {
+export default function ChatBox({ roomData, handleSendMsg, allMsgs, user, handleDelete, setReplyMsg, replyMsg }) {
   return (
     <Box sx={{ width: "50vw", display: "flex", height: "100%", flexDirection: "column" }}>
       {
